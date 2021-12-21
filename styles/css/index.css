@@ -1,0 +1,95 @@
+@font-face{
+    font-family: "s400";
+    src: url("../fonts/s400.ttf");
+
+        }
+
+@font-face{
+    font-family: "s700";
+    src: url("../fonts/s700.ttf");
+
+        }
+
+
+body{
+    background-color: rgb(12, 12, 12);
+    font-family: 's400';
+    color: white
+}
+
+h1{
+    font-style: normal;
+    text-decoration: none;
+    margin-top: 20vh;
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.top-nav li{
+    border: 1px white solid;
+    border-radius: 10px;
+}
+.top-nav li a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.bot-nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.bot-nav li{
+
+    border-bottom: 2px #3e91ff solid;
+    border-spacing: 100px;
+
+}
+.bot-nav li a{
+    /**/
+
+
+}
+.content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    border: 0px gray solid;
+    border-radius: 30px;
+    background-color: rgb(27, 27, 27);
+}
+.content p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+.svg{
+    filter: invert(99%) sepia(0%) saturate(1728%) hue-rotate(162deg) brightness(107%) contrast(100%);
+}
+.svg:hover{
+    filter: invert(99%) sepia(0%) saturate(1728%) hue-rotate(162deg) brightness(107%) contrast(100%);
+    border: 1px white solid;
+    border-radius: 5px;
+}
+p{
+
+
+}
+
+.settings{
+    margin-right: 30px;
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+    list-style: none;
+}
