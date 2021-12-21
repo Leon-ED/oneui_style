@@ -26,8 +26,10 @@ h1{
 }
 
 .top-nav{
+    margin-left: 70px;
+    margin-right: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly ;
     list-style: none;
 }
 .top-nav li{
@@ -66,8 +68,8 @@ h1{
     border-radius: 30px;
     background-color: rgb(27, 27, 27);
 }
-.content p {
-    padding-left: 10%;
+.content h2,p{
+    margin-left: 5%;
     padding-right: 10%;
 }
 
@@ -81,10 +83,7 @@ h1{
     border: 1px white solid;
     border-radius: 5px;
 }
-p{
 
-
-}
 
 .settings{
     margin-right: 30px;
@@ -92,4 +91,8 @@ p{
     margin-left: auto;
     justify-content: flex-end;
     list-style: none;
+}
+
+#active{
+    color:#3e91ff;
 }
