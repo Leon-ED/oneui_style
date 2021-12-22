@@ -96,3 +96,34 @@ h1{
 #active{
     color:#3e91ff;
 }
+@media only screen 
+and (max-device-width: 520px)
+{
+    .top-nav{
+
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly ;
+        list-style: none;
+    }
+    .top-nav li{
+        border: 1px white none;
+        border-radius: 0px;
+    }
+    .content{
+        
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        border: 0px gray solid;
+        border-radius: 30px;
+        background-color: rgb(27, 27, 27);
+    }
+    .content h2,p{
+        margin-left: 5%;
+        padding-right: 10%;
+    }
+    
+
+}
