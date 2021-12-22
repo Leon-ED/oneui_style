@@ -44,6 +44,7 @@ h1{
 }
 
 .bot-nav{
+    padding: 0px;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -97,12 +98,14 @@ h1{
     color:#3e91ff;
 }
 @media only screen 
-and (max-device-width: 520px)
+and (max-device-width: 800px)
 {
     .top-nav{
-
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content:space-evenly ;
         list-style: none;
     }
